@@ -9,7 +9,7 @@ optimizer = FxTS-Momentum(model.parameters(), lr=learning_rate, momentum=momentu
 Here is a quick summary of optimizer's performance for function minimization and training of NNs:
 
 ### Function minimization
-![Proposed GCN architecture](model.png)
+![Minimization of Rosenbrock Function](Figures/RF.png "Rosenbrock function") ![Minimization of McCormick Function](Figures/McCormick.png "McCormick function")
 
 ### Training of CNN on MNIST dataset
 ![Proposed GCN architecture](model.png)
