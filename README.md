@@ -16,3 +16,15 @@ Here is a quick summary of optimizer's performance for function minimization and
 
 ### Training of CNN on CIFAR10 dataset
 ![Performance on CIFAR10](Figures/CIFAR10.png)
+
+
+## How to cite
+
+```
+@article{budhraja2021breaking,
+  title={Breaking the Convergence Barrier: Optimization via Fixed-Time Convergent Flows},
+  author={Budhraja, Param and Baranwal, Mayank and Garg, Kunal and Hota, Ashish},
+  journal={arXiv preprint arXiv:2112.01363},
+  year={2021}
+}
+```
