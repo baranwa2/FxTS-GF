@@ -1,6 +1,6 @@
 # FxTS-GF
 
-This repository implements custom PyTorch optimizers for the Fixed-Time convergent Gradient Flows (FxTS-GF) proposed in our recent AAAI paper (https://arxiv.org/pdf/2112.01363.pdf) titled "Breaking the Convergence Barrier: Optimization via Fixed-Time Convergent Flows". The optimizers can be easily integrated by simply invoking:
+This repository implements custom PyTorch optimizers for the Fixed-Time convergent Gradient Flows (FxTS-GF) proposed in our recent AAAI paper (https://arxiv.org/pdf/2112.01363.pdf) titled "Breaking the Convergence Barrier: Optimization via Fixed-Time Convergent Flows". The optimizer can be easily integrated by simply invoking:
 
 ```
 optimizer = FxTS_Momentum(model.parameters(), lr=learning_rate, momentum=momentum)
