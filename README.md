@@ -12,7 +12,7 @@ Here is a quick summary of optimizer's performance for function minimization and
 ![Minimization of Rosenbrock Function](Figures/RF.png "Rosenbrock function") ![Minimization of McCormick Function](Figures/McCormick.png "McCormick function")
 
 ### Training of CNN on MNIST dataset
-![Performance on MNIST](MNIST.png)
+![Performance on MNIST](Figures/MNIST.png)
 
 ### Training of CNN on CIFAR10 dataset
-![Performance on CIFAR10](CIFAR10.png)
+![Performance on CIFAR10](Figures/CIFAR10.png)
