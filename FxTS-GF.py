@@ -67,8 +67,8 @@ class FxTS_Momentum(Optimizer):
                 v.mul_(momentum).add_(1-momentum,grad)
                 
                 v_norm = v.norm()
-                factor = beta1/(v_norm ** ((alpha1-2)/(alpha1-1))) + beta2/(v_norm ** ((alpha2-2)/(alpha2-1)))
-                v.mul_(factor)
+                factor = beta1 * (v_norm ** (1 - (alpha1-2)/(alpha1-1))) + beta2 * (v_norm ** (1 - (alpha2-2)/(alpha2-1)))
+                torch.sign(v).mul_(factor)
                 
                 p.data.add_(-lr,v)
                 
